@@ -128,7 +128,20 @@ li a:hover {
     color:rgb(237, 212, 178);
     font-size: 24px;
     font-weight: 500;
-    mix-blend-mode: difference color;
+    text-shadow: 0.5px 0.5px 0px #472e02,
+    1px 1px 0px #343434, 
+    1.5px 1.5px 0px #343434,
+    2px 2px 0px #343434;
+}
+
+.intro a{
+    margin-top: 70px;
+    justify-self: flex-end;
+}
+
+.intro a i {
+    font-size: 50px;
+    color: #DFD7BF;
 }
 
 .main {
